@@ -1,0 +1,17 @@
+{
+  "name": "opencomputer-example-designer-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "opencomputer doctor",
+    "session": "opencomputer session",
+    "deploy": "opencomputer deploy"
+  },
+  "dependencies": {
+    "@opencomputer/agent": "^0.6.0"
+  },
+  "devDependencies": {
+    "@opencomputer/cli": "^0.7.0"
+  }
+}

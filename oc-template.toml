@@ -1,0 +1,11 @@
+schema = 1
+
+[template]
+name = "Designer Agent"
+description = "Turn a brief into a polished static website, validate it in an isolated sandbox, and return a public preview URL."
+documentation = "https://github.com/diggerhq/opencomputer-example-designer-agent#readme"
+default_project_name = "designer-agent"
+
+[template.first_run]
+agent = "designer"
+prompt = "Design a launch page for a tiny typography studio called Kern."
